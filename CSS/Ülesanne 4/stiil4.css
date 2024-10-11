@@ -1,0 +1,78 @@
+footer,header {
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    
+}
+main{
+    background-color: beige;
+    padding: 40px;
+
+}
+p{
+    padding: 20px;
+    border: 2px solid black;
+}
+p:hover {
+    color: #ff0000;
+}
+p::before {
+    content: "Lorem Ipsum: ";
+    color: #007BFF;
+}
+p::after{
+    content: "The End";
+    color: #00ac28;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+}
+a{
+    font-size: 16px;
+    display: inline-block; 
+    font-size: 16px;
+    color: blue;
+    text-decoration: none;
+    transition: transform 0.3s ease; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+}
+a:hover{
+    color: red;
+    transform: scale(1.1); 
+}
+
+.kast1 {
+    background-color: #000000;
+    padding: 20px;
+    margin: 10px;
+}
+.kast2 {
+    background-color: #00e235;
+   
+}
+.kast3 {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 10px;
+}
+.kast4 {
+    background-color: #2f5f3a;
+    padding: 20px;
+    margin: 10px;
+}
+#eri {
+    background-color: #0075f3;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+

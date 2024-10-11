@@ -1,0 +1,62 @@
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #640404;
+}
+body{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    
+}
+.taustakast{
+    background-color: aqua;
+    padding: 40px;
+}
+
+.section1 {
+    background-color: rgb(0, 0, 168);
+    padding: 20px;
+}
+.section2 {
+    background-color: rgb(18, 161, 18);
+    padding: 20px;
+}
+.section3 {
+    background-color: yellow;
+    padding: 20px;
+}
+img{
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border: 10px rgb(102, 77, 77) solid;
+    border-radius: 15px;
+
+    align-items: center;
+}
+.button{
+    background-color:greenyellow ;
+    font-size: large;
+    color: blueviolet;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: aqua;
+}
+#minu_nupp{
+    background-color: #4caf50;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#minu_nupp:hover{
+    background-color: tomato;
+}
