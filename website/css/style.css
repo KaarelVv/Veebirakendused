@@ -26,9 +26,6 @@ footer {
     padding: 20px;
     background: #444;
     color: #fff;
-    
-    
-    
 }
 
 .clear {
@@ -180,28 +177,34 @@ footer {
     margin-right: 20px;
     border-radius: 50%;
 }
-#contact-form .form-group{
+
+#contact-form .form-group {
     margin-bottom: 20px;
 }
-#contact-form .form-group label{
+
+#contact-form .form-group label {
     display: block;
     margin-bottom: 5px;
 }
-#contact-form .form-group input ,
-#contact-form .form-group textarea{
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
 }
-#contact-form .form-group textarea{
-   height: 200px;
+
+#contact-form .form-group textarea {
+    height: 200px;
 }
-#contact-form .form-group input:focus ,
-#contact-form .form-group textarea:focus{
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
     outline: none;
     border-color: #f7c88a;
 }
-#contact-info .box{
+
+#contact-info .box {
     float: left;
     width: 33.3333%;
     padding: 50px;
@@ -248,4 +251,65 @@ footer {
 
 .py-30 {
     padding: 30px 0;
+}
+@media (max-width: 768px) {
+    #navbar ul {
+        float: none;
+        text-align: center;
+    }
+
+    #navbar ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    #navbar h1 {
+        float: none;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #showcase {
+        height: 450px;
+    }
+
+    #showcase .showcase-content h1 {
+        font-size: 40px;
+    }
+
+    #info .info-content, #info .info-img {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #info {
+        height: auto;
+    }
+
+    #features .box {
+        float: none;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #about-info .info-left, #about-info .info-right {
+        float: none;
+        width: 100%;
+    }
+
+    #about-info .info-right img {
+        width: 50%;
+    }
+
+    #testimonials {
+        height: auto;
+        padding: 20px;
+    }
+
+    #contact-info .box {
+        float: none;
+        width: 100%;
+        padding: 20px;
+    }
 }
