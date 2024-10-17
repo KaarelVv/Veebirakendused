@@ -134,6 +134,9 @@ footer {
     padding: 50px;
     text-align: center;
 }
+#features .box i{
+    margin-bottom: 10px;
+}
 
 #about-info .info-left {
     float: left;
@@ -246,13 +249,13 @@ footer {
 
 .bg-primary {
     background: #ffbb6d;
-    color: #fff;
+    color: #333;
 }
 
 .py-30 {
     padding: 30px 0;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     #navbar ul {
         float: none;
         text-align: center;
@@ -312,4 +315,4 @@ footer {
         width: 100%;
         padding: 20px;
     }
-}
+} */
