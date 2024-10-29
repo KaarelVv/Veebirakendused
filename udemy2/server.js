@@ -4,7 +4,7 @@ const app = express();
 
 
 // Serve static files from the 'restaurant' folder
-app.use(express.static(path.join(__dirname, 'restaurant')));
+app.use(express.static(path.join(__dirname, '')));
 
 // Serve the index.html file
 app.get('/', (req, res) => {
